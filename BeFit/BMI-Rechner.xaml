@@ -13,7 +13,7 @@
         <TextBox x:Name="Alterbox" HorizontalAlignment="Left" Margin="434,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="Alterbox_TextChanged"/>
         <TextBox x:Name="KörpergrößeBox" HorizontalAlignment="Left" Margin="434,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <TextBox x:Name="KörpergewichtBox" HorizontalAlignment="Left" Margin="434,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,294,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Rechnen" HorizontalAlignment="Center" Margin="0,294,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <Label x:Name="ErgebnissLabel" Content="Label" HorizontalAlignment="Center" Margin="0,352,0,0" VerticalAlignment="Top" RenderTransformOrigin="29.862,18.503"/>
         <Image Margin="10,10,678,357" Source="/Image2.png" Stretch="Fill"/>
 
