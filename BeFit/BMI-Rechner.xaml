@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeFit"
         mc:Ignorable="d"
-        Title="BMI_Rechner" Height="450" Width="800" Background="Red">
+        Title="BMI_Rechner" Height="450" Width="800" Background="LightGray">
     <Grid>
         <Label Content="Alter:" HorizontalAlignment="Left" Margin="243,76,0,0" VerticalAlignment="Top"/>
         <Label Content="Körpergröße" HorizontalAlignment="Left" Margin="224,147,0,0" VerticalAlignment="Top"/>
