@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeFit"
         mc:Ignorable="d"
-        Title="Erstgespräch" Height="450" Width="800">
+        Title="Erstgespräch" Height="450" Width="800" Background="LightGray">
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Black"/>
+                <GradientStop Color="#FFEA1313" Offset="1"/>
+                <GradientStop Color="#FFC77E7E" Offset="0.017"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Image Margin="10,10,684,364" Source="/BeFitLingen.png" Stretch="Fill"/>
+
     </Grid>
 </Window>
