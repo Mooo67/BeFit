@@ -1,0 +1,49 @@
+﻿<Window x:Class="BeFit.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeFit"
+        mc:Ignorable="d"
+        Title="BeFit Verwaltung" Height="450" Width="800" Background="LightGray"
+        ResizeMode="NoResize">
+    <Grid>
+        <Image Margin="10,0,1047,711" Source="/Image1.png" Stretch="Fill"/>
+        <Label Content="BeFit Fitnessstudio" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Height="127" Width="267" FontSize="24" FontFamily="Arial" FontWeight="Bold">
+        </Label>
+        <Button Content="Kunden&#xD;&#xA;" HorizontalAlignment="Left" Margin="41,99,0,0" VerticalAlignment="Top" Click="Button_Click1" Height="26" Width="82"/>
+        <Button Content="Traningsplan&#xA;" HorizontalAlignment="Left" Margin="178,99,0,0" VerticalAlignment="Top" Click="Button_Click2" Height="26" Width="82"/>
+        <Button Content="Nährstoffberechnung&#xA;" HorizontalAlignment="Left" Margin="317,97,0,0" VerticalAlignment="Top" Click="Button_Click3" Height="26" Width="137" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.291"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="BMI-Rechner&#xA;" HorizontalAlignment="Left" Margin="500,99,0,0" VerticalAlignment="Top" Click="Button_Click4" Height="26" Width="82"/>
+        <Button Content="Erstgespräch&#xA;" HorizontalAlignment="Left" Margin="630,97,0,0" VerticalAlignment="Top" Click="Button_Click5" Height="26" Width="137" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.291"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Logout&#xA;" HorizontalAlignment="Left" Margin="708,10,0,0" VerticalAlignment="Top" Click="Button_Click6" Height="26" Width="82"/>
+        <Button Content="Support&#xA;" HorizontalAlignment="Left" Margin="631,10,0,0" VerticalAlignment="Top" Click="Button_Click7" Height="25" Width="70" RenderTransformOrigin="0.5,0.5">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.291"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </Grid>
+</Window>

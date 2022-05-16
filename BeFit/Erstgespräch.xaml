@@ -1,0 +1,42 @@
+﻿<Window x:Class="BeFit.Erstgespräch"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BeFit"
+        mc:Ignorable="d"
+        Title="Erstgespräch" Height="450" Width="800" Background="LightGray">
+    <Grid>
+        <Image Margin="10,10,684,364" Source="/BeFitLingen.png" Stretch="Fill"/>
+        <TextBlock x:Name="Anamnsesebogen" HorizontalAlignment="Left" Margin="237,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="20"><Run Text="Anamn"/><Run Language="de-de" Text="e"/><Run Text="seboge"/><Run Text="n 2022"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="16" Margin="633,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" FontFamily="Arial Black"><Run Language="de-de" Text="Datum:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="236,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="46" FontFamily="Arial Black"><Run Language="de-de" Text="Beruf:"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="240,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="38" FontFamily="Arial Black"><Run Language="de-de" Text="Alter"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="19" Margin="233,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" FontFamily="Arial Black"><Run Language="de-de" Text="Name"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="433,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="61" FontFamily="Arial Black"><Run Text="Ge"/><Run Language="de-de" Text="wicht"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="449,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="45" FontFamily="Arial Black"><Run Language="de-de" Text="Größe"/><Run Text=":"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17" Margin="199,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="83" FontFamily="Arial Black"><Run Language="de-de" Text="Geschlecht"/><Run Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="294,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="294,131,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="294,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" TextChanged="TextBox_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="510,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" TextChanged="TextBox_TextChanged" Text="Kg" TextAlignment="Right" FontStyle="Italic"/>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="510,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" TextChanged="TextBox_TextChanged" Text="cm" TextAlignment="Right" FontStyle="Italic"/>
+        <TextBox HorizontalAlignment="Left" Height="16" Margin="682,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="108" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="textBoxBeruf" HorizontalAlignment="Left" Height="17" Margin="294,165,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="147,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" FontFamily="Arial Black"><Run Language="de-de" Text="Sportliche Aktivität"/><Run Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="294,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" TextChanged="TextBox_TextChanged"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="154,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="135" FontFamily="Arial Black"><Run Language="de-de" Text="Zeitliches Pensum"/><Run Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="294,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" TextChanged="TextBox_TextChanged" Text="x pro Woche" TextAlignment="Right" FontStyle="Italic"/>
+        <TextBox HorizontalAlignment="Left" Height="17" Margin="433,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" TextChanged="TextBox_TextChanged" Text="h pro Einheit" TextAlignment="Right" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="154,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="268" FontFamily="Arial Black" Text="Gesundheitliche Einschränkungen" FontSize="14"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="154,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TextChanged="TextBox_TextChanged" TextAlignment="Right" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="156,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="264" FontFamily="Arial" FontWeight="Normal" FontStyle="Italic"><Run Language="de-de" Text="organische Erkrankungen/verletzungen"/><Run Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="154,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TextChanged="TextBox_TextChanged" TextAlignment="Right" FontStyle="Italic"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="154,390,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TextChanged="TextBox_TextChanged" TextAlignment="Right" FontStyle="Italic"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="433,346,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TextChanged="TextBox_TextChanged" TextAlignment="Right" FontStyle="Italic"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="435,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" FontFamily="Arial" FontWeight="Normal" FontStyle="Italic"><Run Text="muskuläre/knöcherne Verletzungen/Erkrankungen"/><Run Language="de-de" Text=":"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="433,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TextChanged="TextBox_TextChanged" TextAlignment="Right" FontStyle="Italic"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="433,390,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TextChanged="TextBox_TextChanged" TextAlignment="Right" FontStyle="Italic"/>
+
+    </Grid>
+</Window>
