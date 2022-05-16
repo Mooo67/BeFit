@@ -36,7 +36,7 @@ namespace BeFit
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            string message = "Herzlichen Glückwunsch, du bist Fett";
+            string message = "Hallo";
             MessageBox.Show(message);
         }
 
