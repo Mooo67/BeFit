@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeFit"
         mc:Ignorable="d"
-        Title="Nährstoffberechnung" Height="450" Width="800">
+        Title="Nährstoffberechnung" Height="450" Width="800" Background="LightGray">
 	<Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition Width="143*"/>
