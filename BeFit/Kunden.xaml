@@ -15,5 +15,6 @@
         <Button Height="23" Margin="559,154,121,0" x:Name="DeleteButton" VerticalAlignment="Top" Click="DeleteButton_Click" Content="Kunde Löschen"/>
         <Label Content="Kunden" HorizontalAlignment="Center" Margin="0,12,0,0" VerticalAlignment="Top" FontSize="24"/>
         <Image Margin="10,0,677,368" Source="/Image8.png" Stretch="Fill"/>
+        <Button x:Name="BackButton" Content="Zurück" HorizontalAlignment="Left" Margin="737,13,0,0" VerticalAlignment="Top" Click="BackButton_Click"/>
     </Grid>
 </Window>
