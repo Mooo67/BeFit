@@ -50,5 +50,12 @@ namespace BeFit
         {
 
         }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.Visibility = Visibility.Hidden;
+            var myForm = new BeFit.Window1();
+            myForm.Show();
+        }
     }
 }

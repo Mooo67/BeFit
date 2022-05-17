@@ -37,6 +37,7 @@
         <TextBlock HorizontalAlignment="Left" Height="20" Margin="435,318,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="288" FontFamily="Arial" FontWeight="Normal" FontStyle="Italic"><Run Text="muskuläre/knöcherne Verletzungen/Erkrankungen"/><Run Language="de-de" Text=":"/></TextBlock>
         <TextBox HorizontalAlignment="Left" Height="18" Margin="433,368,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TextChanged="TextBox_TextChanged" TextAlignment="Right" FontStyle="Italic"/>
         <TextBox HorizontalAlignment="Left" Height="18" Margin="433,390,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="240" TextChanged="TextBox_TextChanged" TextAlignment="Right" FontStyle="Italic"/>
+        <Button Content="Speichern" HorizontalAlignment="Left" Margin="386,414,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.274,0.619"/>
 
     </Grid>
 </Window>
