@@ -61,7 +61,7 @@ namespace BeFit
 
         private void Button_Click7(object sender, RoutedEventArgs e)
         {
-        //Support
+        
         }
 
         private void Button_Click6(object sender, RoutedEventArgs e)
