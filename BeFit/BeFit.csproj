@@ -67,6 +67,9 @@
     <Compile Include="Nährstoffberechnung.xaml.cs">
       <DependentUpon>Nährstoffberechnung.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Support.xaml.cs">
+      <DependentUpon>Support.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Trainingsplan.xaml.cs">
       <DependentUpon>Trainingsplan.xaml</DependentUpon>
     </Compile>
@@ -102,6 +105,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Nährstoffberechnung.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Support.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

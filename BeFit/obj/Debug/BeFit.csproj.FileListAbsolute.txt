@@ -82,3 +82,5 @@ C:\Users\nikla\Source\Repos\BeFit\BeFit\obj\Debug\BeFit.csproj.GenerateResource.
 C:\Users\nikla\Source\Repos\BeFit\BeFit\obj\Debug\BeFit.csproj.CoreCompileInputs.cache
 C:\Users\nikla\Source\Repos\BeFit\BeFit\obj\Debug\BeFit.exe
 C:\Users\nikla\Source\Repos\BeFit\BeFit\obj\Debug\BeFit.pdb
+C:\Users\mohammad\source\repos\BeFit\BeFit\obj\Debug\Support.g.cs
+C:\Users\mohammad\source\repos\BeFit\BeFit\obj\Debug\Support.baml

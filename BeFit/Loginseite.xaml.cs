@@ -29,5 +29,12 @@ namespace BeFit
         {
 
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Visibility = Visibility.Hidden;
+            var myForm = new BeFit.Window1();
+            myForm.Show();
+        }
     }
 }

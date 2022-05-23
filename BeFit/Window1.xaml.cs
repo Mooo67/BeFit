@@ -61,7 +61,9 @@ namespace BeFit
 
         private void Button_Click7(object sender, RoutedEventArgs e)
         {
-        
+            this.Visibility = Visibility.Hidden;
+            var myForm = new BeFit.Support();
+            myForm.Show();
         }
 
         private void Button_Click6(object sender, RoutedEventArgs e)
