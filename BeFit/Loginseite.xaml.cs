@@ -27,7 +27,14 @@ namespace BeFit
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            if (String.IsNullOrEmpty(UsernameText.Text))
+            {
+                MessageBox.Show("Bitte was Tippen");
+            }
 
+            // this.Visibility = Visibility.Hidden;
+            // var myForm = new BeFit.Window1();
+            // myForm.Show();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)

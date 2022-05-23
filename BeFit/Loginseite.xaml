@@ -9,7 +9,7 @@
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="345,278,0,0" VerticalAlignment="Top" Click="Button_Click" Height="20" Width="82"/>
         <PasswordBox HorizontalAlignment="Left" Margin="334,0,0,0" VerticalAlignment="Center" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Margin="334,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="UsernameText" HorizontalAlignment="Left" Margin="334,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="" HorizontalAlignment="Left" Margin="241,191,0,0" VerticalAlignment="Top"/>
         <Label Content="Username:&#xD;&#xA;" HorizontalAlignment="Left" Margin="199,175,0,0" VerticalAlignment="Top"/>
         <Label Content="" HorizontalAlignment="Left" Margin="213,104,0,0" VerticalAlignment="Top"/>

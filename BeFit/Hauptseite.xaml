@@ -11,9 +11,9 @@
         <Image Margin="10,0,1047,711" Source="/Image1.png" Stretch="Fill"/>
         <Label Content="BeFit Fitnessstudio" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Height="127" Width="267" FontSize="24" FontFamily="Arial" FontWeight="Bold">
         </Label>
-        <Button Content="Kunden&#xD;&#xA;" HorizontalAlignment="Left" Margin="41,99,0,0" VerticalAlignment="Top" Click="Button_Click1" Height="26" Width="82"/>
+        <Button Content="Kunden&#xD;&#xA;" HorizontalAlignment="Left" Margin="48,99,0,0" VerticalAlignment="Top" Click="Button_Click1" Height="26" Width="82"/>
         <Button Content="Traningsplan&#xA;" HorizontalAlignment="Left" Margin="178,99,0,0" VerticalAlignment="Top" Click="Button_Click2" Height="26" Width="82"/>
-        <Button Content="Nährstoffberechnung&#xA;" HorizontalAlignment="Left" Margin="317,97,0,0" VerticalAlignment="Top" Click="Button_Click3" Height="26" Width="137" RenderTransformOrigin="0.5,0.5">
+        <Button Content="Nährstoffberechnung&#xA;" HorizontalAlignment="Left" Margin="309,97,0,0" VerticalAlignment="Top" Click="Button_Click3" Height="26" Width="137" RenderTransformOrigin="0.5,0.5">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -35,7 +35,7 @@
             </Button.RenderTransform>
         </Button>
         <Button Content="Logout&#xA;" HorizontalAlignment="Left" Margin="708,10,0,0" VerticalAlignment="Top" Click="Button_Click6" Height="26" Width="82"/>
-        <Button Content="Support&#xA;" HorizontalAlignment="Left" Margin="631,10,0,0" VerticalAlignment="Top" Click="Button_Click7" Height="25" Width="70" RenderTransformOrigin="0.5,0.5">
+        <Button Content="Support&#xA;" HorizontalAlignment="Left" Margin="617,10,0,0" VerticalAlignment="Top" Click="Button_Click7" Height="25" Width="70" RenderTransformOrigin="0.5,0.5">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
