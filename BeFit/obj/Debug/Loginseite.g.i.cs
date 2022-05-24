@@ -41,7 +41,7 @@ namespace BeFit {
     public partial class MainWindow : System.Windows.Window, System.Windows.Markup.IComponentConnector {
         
         
-        #line 12 "..\..\Loginseite.xaml"
+        #line 19 "..\..\Loginseite.xaml"
         [System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1823:AvoidUnusedPrivateFields")]
         internal System.Windows.Controls.TextBox UsernameText;
         
@@ -80,7 +80,7 @@ namespace BeFit {
             {
             case 1:
             
-            #line 10 "..\..\Loginseite.xaml"
+            #line 13 "..\..\Loginseite.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click);
             
             #line default
@@ -91,7 +91,7 @@ namespace BeFit {
             return;
             case 3:
             
-            #line 22 "..\..\Loginseite.xaml"
+            #line 28 "..\..\Loginseite.xaml"
             ((System.Windows.Controls.Button)(target)).Click += new System.Windows.RoutedEventHandler(this.Button_Click_1);
             
             #line default

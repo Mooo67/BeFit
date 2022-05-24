@@ -187,5 +187,38 @@
   <ItemGroup>
     <Resource Include="logo_white.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="1000_F_186947971_1Lpx4DGsh62qpPCNm90w9zsIctjyGpS7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="istockphoto-908224714-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="login-page.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="png-transparent-computer-icons-login-icon-design-others-logo-silhouette-share-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="user-login-function-name-avatar-icon-free-download-number-symbol-text-logo-transparent-png-2004255.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo-color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="17547.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="png-transparent-computer-icons-others-miscellaneous-angle-rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Pfeil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Herunterladen %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,19 +7,34 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" Background="LightGray">
     <Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="345,278,0,0" VerticalAlignment="Top" Click="Button_Click" Height="20" Width="82"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="/istockphoto-908224714-612x612.jpg" TileMode="None" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Button Content="" HorizontalAlignment="Left" Margin="394,282,0,0" VerticalAlignment="Top" Click="Button_Click" Height="30" Width="32" FontFamily="Arial">
+            <Button.Background>
+                <ImageBrush ImageSource="/17547.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
         <PasswordBox HorizontalAlignment="Left" Margin="334,0,0,0" VerticalAlignment="Center" Width="120"/>
         <TextBox x:Name="UsernameText" HorizontalAlignment="Left" Margin="334,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label Content="" HorizontalAlignment="Left" Margin="241,191,0,0" VerticalAlignment="Top"/>
-        <Label Content="Username:&#xD;&#xA;" HorizontalAlignment="Left" Margin="199,175,0,0" VerticalAlignment="Top"/>
+        <Label Content="Username:&#xD;&#xA;" HorizontalAlignment="Left" Margin="224,175,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Height="21"/>
         <Label Content="" HorizontalAlignment="Left" Margin="213,104,0,0" VerticalAlignment="Top"/>
-        <Label Content="Password:&#xA;" HorizontalAlignment="Left" Margin="199,205,0,0" VerticalAlignment="Top"/>
-        <Label Content="Login-Seite" HorizontalAlignment="Left" Margin="359,99,0,0" VerticalAlignment="Top"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="213,275,0,0" VerticalAlignment="Top" Width="100"/>
-        <Image Margin="326,0,338,352" Source="/Image1.png" Stretch="Fill"/>
-        <Label Content="Angemeldet bleiben&#xA;" HorizontalAlignment="Left" Margin="345,231,0,0" VerticalAlignment="Top"/>
-        <Rectangle HorizontalAlignment="Left" Height="13" Margin="326,239,0,0" Stroke="Black" VerticalAlignment="Top" Width="14"/>
-        <Button Content="Hauptseite" HorizontalAlignment="Left" Margin="707,51,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Label Content="Password:&#xA;" HorizontalAlignment="Left" Margin="228,205,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Height="21"/>
+        <Label Content="LOGIN" HorizontalAlignment="Center" Margin="0,117,0,0" VerticalAlignment="Top" Height="35" Width="84" Background="Black" BorderBrush="#FFAD5C5C" Foreground="White" FontSize="18" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontWeight="Bold"/>
+        <Image Margin="332,10,332,342" Source="/logo_white.png" Stretch="UniformToFill" StretchDirection="Both"/>
+        <Label Content="Angemeldet bleiben&#xA;" HorizontalAlignment="Left" Margin="359,233,0,0" VerticalAlignment="Top" Height="25" FontFamily="Arial" FontStyle="Italic" FontSize="11" FontWeight="Bold"/>
+        <Rectangle HorizontalAlignment="Left" Height="13" Margin="345,239,0,0" Stroke="Black" VerticalAlignment="Top" Width="14"/>
+        <Button Content="Hauptseite" HorizontalAlignment="Left" Margin="700,10,0,0" VerticalAlignment="Top" Click="Button_Click_1" Height="23" Width="90" Foreground="White" FontFamily="Arial" FontWeight="Bold" FontSize="11" FontStyle="Italic">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF5F4444" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Image HorizontalAlignment="Left" Height="57" Margin="413,175,0,0" VerticalAlignment="Top" Width="158" Source="/login-page.png" Stretch="UniformToFill" RenderTransformOrigin="0.335,0.527"/>
+        <TextBlock HorizontalAlignment="Left" Margin="342,289,0,0" TextWrapping="Wrap" Text="Log In:" VerticalAlignment="Top" FontFamily="Arial" FontWeight="Bold" FontSize="14"/>
 
 
 
