@@ -31,7 +31,7 @@ namespace BeFit
             try
             {
                 MailMessage mail = new MailMessage();
-                mail.To.Add("usj39372@xcoxc.com"); // Empfänger Email
+                mail.To.Add("lxq70599@jiooq.com"); // Empfänger Email
                 mail.From = new MailAddress("hopsporjektsuppo@gmail.com"); // Absender
                 mail.Subject = "Support!";
                 mail.Body = txt.Text;
@@ -41,7 +41,7 @@ namespace BeFit
                 smtp.EnableSsl = true;
                 smtp.Credentials = new System.Net.NetworkCredential("hopsporjektsuppo@gmail.com", "Hundesohn1"); // Absender und passwort
                 smtp.Send(mail);
-                MessageBox.Show("mail Send");
+                MessageBox.Show("E-Mail verschickt");
             }
             catch (Exception ex)
             {
