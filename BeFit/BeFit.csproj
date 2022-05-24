@@ -175,5 +175,17 @@
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.CodeFixes.dll" />
     <Analyzer Include="..\packages\StyleCop.Analyzers.1.1.118\analyzers\dotnet\cs\StyleCop.Analyzers.dll" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo_gray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BeFit-700x450.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="istockphoto-1134872858-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo_white.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

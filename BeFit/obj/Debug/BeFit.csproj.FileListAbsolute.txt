@@ -89,3 +89,10 @@ C:\Users\mohammad\source\repos\BeFit\BeFit\bin\Debug\System.Windows.Interactivit
 C:\Users\mohammad\source\repos\BeFit\BeFit\bin\Debug\Microsoft.Expression.Interactions.xml
 C:\Users\mohammad\source\repos\BeFit\BeFit\bin\Debug\System.Windows.Interactivity.xml
 C:\Users\mohammad\source\repos\BeFit\BeFit\obj\Debug\BeFit.csproj.CopyComplete
+C:\Users\nikla\Source\Repos\BeFit\BeFit\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\nikla\Source\Repos\BeFit\BeFit\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\nikla\Source\Repos\BeFit\BeFit\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\nikla\Source\Repos\BeFit\BeFit\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\nikla\Source\Repos\BeFit\BeFit\obj\Debug\Support.g.cs
+C:\Users\nikla\Source\Repos\BeFit\BeFit\obj\Debug\Support.baml
+C:\Users\nikla\Source\Repos\BeFit\BeFit\obj\Debug\BeFit.csproj.CopyComplete

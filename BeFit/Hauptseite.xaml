@@ -8,10 +8,11 @@
         Title="BeFit Verwaltung" Height="450" Width="800" Background="LightGray"
         ResizeMode="NoResize">
     <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/istockphoto-1134872858-170667a.jpg" TileMode="None" Stretch="UniformToFill"/>
+        </Grid.Background>
         <Image Margin="10,0,1047,711" Source="/Image1.png" Stretch="Fill"/>
-        <Label Content="BeFit fitness" HorizontalAlignment="Left" Margin="300,10,0,0" VerticalAlignment="Top" Height="42" Width="185" FontSize="24" FontFamily="Arial Black" FontWeight="Bold">
-        </Label>
-        <Button Content="Kunden&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,112,0,0" VerticalAlignment="Top" Click="Button_Click1" Height="159" Width="83" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+        <Button Content="Kunden&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,123,0,0" VerticalAlignment="Top" Click="Button_Click1" Height="159" Width="83" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
@@ -19,7 +20,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Traningsplan&#xA;" HorizontalAlignment="Left" Margin="113,112,0,0" VerticalAlignment="Top" Click="Button_Click2" Height="159" Width="132" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+        <Button Content="Traningsplan&#xA;" HorizontalAlignment="Left" Margin="113,123,0,0" VerticalAlignment="Top" Click="Button_Click2" Height="159" Width="132" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black" Offset="0"/>
@@ -27,7 +28,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Nährstoffberechnung&#xA;" HorizontalAlignment="Left" Margin="262,112,0,0" VerticalAlignment="Top" Click="Button_Click3" Height="159" Width="213" RenderTransformOrigin="0.5,0.5" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+        <Button Content="Nährstoffberechnung&#xA;" HorizontalAlignment="Left" Margin="262,123,0,0" VerticalAlignment="Top" Click="Button_Click3" Height="159" Width="213" RenderTransformOrigin="0.5,0.5" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
@@ -43,7 +44,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Content="BMI-Rechner&#xA;" HorizontalAlignment="Left" Margin="498,112,0,0" VerticalAlignment="Top" Click="Button_Click4" Height="159" Width="129" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+        <Button Content="BMI-Rechner&#xA;" HorizontalAlignment="Left" Margin="498,123,0,0" VerticalAlignment="Top" Click="Button_Click4" Height="159" Width="129" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}" FontStyle="Italic">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
@@ -51,7 +52,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button Content="Erstgespräch&#xA;" HorizontalAlignment="Left" Margin="646,110,0,0" VerticalAlignment="Top" Click="Button_Click5" Height="159" Width="138" RenderTransformOrigin="0.5,0.5" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+        <Button Content="Erstgespräch&#xA;" HorizontalAlignment="Left" Margin="646,123,0,0" VerticalAlignment="Top" Click="Button_Click5" Height="159" Width="138" RenderTransformOrigin="0.5,0.5" FontFamily="Arial Black" FontSize="16" Foreground="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
@@ -67,8 +68,8 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
-        <Button Content="Logout&#xA;" HorizontalAlignment="Left" Margin="708,10,0,0" VerticalAlignment="Top" Click="Button_Click6" Height="26" Width="82"/>
-        <Button Content="Support&#xA;" HorizontalAlignment="Left" Margin="617,10,0,0" VerticalAlignment="Top" Click="Button_Click7" Height="25" Width="70" RenderTransformOrigin="0.5,0.5">
+        <Button Content="Logout&#xA;" HorizontalAlignment="Center" Margin="708,10,0,0" VerticalAlignment="Top" Click="Button_Click6" Height="22" Width="70" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" FontFamily="Arial" FontSize="14" FontStyle="Italic" FontWeight="Bold"/>
+        <Button Content="Support&#xA;" HorizontalAlignment="Left" Margin="635,10,0,0" VerticalAlignment="Top" Click="Button_Click7" Height="22" Width="70" RenderTransformOrigin="0.5,0.5" Background="{DynamicResource {x:Static SystemColors.ActiveBorderBrushKey}}" FontFamily="Arial" FontSize="14" FontStyle="Italic" FontWeight="Bold">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -78,6 +79,7 @@
                 </TransformGroup>
             </Button.RenderTransform>
         </Button>
+        <Image HorizontalAlignment="Center" Height="98" VerticalAlignment="Top" Width="192" Source="/logo_white.png" Stretch="Uniform" StretchDirection="Both" Margin="0,10,0,0"/>
     </Grid>
 </Window>
 
