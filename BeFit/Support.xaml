@@ -7,9 +7,20 @@
         mc:Ignorable="d"
         Title="Support" Height="450" Width="800">
     <Grid>
-        <TextBox x:Name="txt" HorizontalAlignment="Left" Margin="286,83,0,0" TextWrapping="Wrap" Text="Problem" VerticalAlignment="Top" Width="256" Height="115"/>
+        <TextBox x:Name="txt" HorizontalAlignment="Left" Margin="179,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="463" Height="164" RenderTransformOrigin="0.5,0.5">
+            <TextBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.096"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </TextBox.RenderTransform>
+        </TextBox>
         <Button Content="Versenden" HorizontalAlignment="Left" Margin="384,298,0,0" VerticalAlignment="Top" Click="Button_Click"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="-253,198,0,0" VerticalAlignment="Top" Width="100"/>
+        <Label x:Name="Ueberschrift" Content="Support" HorizontalAlignment="Left" Margin="370,10,0,0" VerticalAlignment="Top" FontSize="22" Foreground="Black"/>
+        <Image Margin="10,0,677,368" Source="/Image8.png" Stretch="Fill"/>
 
     </Grid>
 </Window>

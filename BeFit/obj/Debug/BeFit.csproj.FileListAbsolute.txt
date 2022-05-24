@@ -84,3 +84,8 @@ C:\Users\nikla\Source\Repos\BeFit\BeFit\obj\Debug\BeFit.exe
 C:\Users\nikla\Source\Repos\BeFit\BeFit\obj\Debug\BeFit.pdb
 C:\Users\mohammad\source\repos\BeFit\BeFit\obj\Debug\Support.g.cs
 C:\Users\mohammad\source\repos\BeFit\BeFit\obj\Debug\Support.baml
+C:\Users\mohammad\source\repos\BeFit\BeFit\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Users\mohammad\source\repos\BeFit\BeFit\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\mohammad\source\repos\BeFit\BeFit\bin\Debug\Microsoft.Expression.Interactions.xml
+C:\Users\mohammad\source\repos\BeFit\BeFit\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\mohammad\source\repos\BeFit\BeFit\obj\Debug\BeFit.csproj.CopyComplete

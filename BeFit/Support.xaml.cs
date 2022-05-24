@@ -27,19 +27,27 @@ namespace BeFit
         
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MailMessage objeto_mail = new MailMessage();
-            SmtpClient client = new SmtpClient();
-            client.Port = 25;
-            client.Host = "smtp.internal.mycompany.com";
-            client.Timeout = 10000;
-            client.DeliveryMethod = SmtpDeliveryMethod.Network;
-            client.UseDefaultCredentials = false;
-            client.Credentials = new System.Net.NetworkCredential("user", "Password");
-            objeto_mail.From = new MailAddress("from@server.com");
-            objeto_mail.To.Add(new MailAddress("to@server.com"));
-            objeto_mail.Subject = "Support";
-            objeto_mail.Body = "Message";
-            client.Send(objeto_mail);
+
+            try
+            {
+                MailMessage mail = new MailMessage();
+                mail.To.Add("usj39372@xcoxc.com"); // Empfänger Email
+                mail.From = new MailAddress("hopsporjektsuppo@gmail.com"); // Absender
+                mail.Subject = "Support!";
+                mail.Body = txt.Text;
+                mail.IsBodyHtml = true;
+                SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
+                smtp.UseDefaultCredentials = false;
+                smtp.EnableSsl = true;
+                smtp.Credentials = new System.Net.NetworkCredential("hopsporjektsuppo@gmail.com", "Hundesohn1"); // Absender und passwort
+                smtp.Send(mail);
+                MessageBox.Show("mail Send");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+            }
+        }
         }
     }
-}
+
